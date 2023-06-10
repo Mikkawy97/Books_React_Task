@@ -1,0 +1,59 @@
+.input-header{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+}
+.input-header input{
+    width: 100%;
+    border-style: none;
+}
+.input-header input:focus{
+    transition-delay: 0.9ms;
+   outline: 4px solid forestgreen;
+}
+.input-header i{
+    color: darkgray;
+}
+.book_card{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    height: 100%;
+}
+.book_card .img-wrapper{
+    position: relative;
+    width: 100%;
+    height:170px ;
+}
+.book_card .img-wrapper img{
+    min-width: 100%;
+    max-height:100% ;
+}
+.book_card .img-wrapper .drop_down_styles{
+   position: absolute;
+   width: 40px;
+   height: 40px;
+   border-style: none;
+   border-radius: 50%;
+   right: -10px;
+   bottom: -10px;
+   background-color: forestgreen;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+ 
+}
+.book_card .title{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+.book_card .author{
+    font-size: 14px;
+    color: lightgray;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.book_card ul li{
+    cursor: pointer;
+}

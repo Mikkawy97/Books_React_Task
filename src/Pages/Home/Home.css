@@ -1,0 +1,24 @@
+.home_header{
+    text-align: center;
+    padding: 20px 0px;
+    background-color: forestgreen; 
+    color: white;
+    margin-bottom: 10px;
+}
+.books_container{
+    padding: 30px 20px;
+}
+.add_btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: forestgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.add_btn:hover{
+    background-color: rgb(6, 64, 6);
+    transition-delay: 0.3ms;
+}
