@@ -18,20 +18,21 @@ class Book extends React.Component {
             selectedShelf=parantshelf;
         }
         else{
-            for (let index = 0; index < shelves.currently_reading.length; index++) {
-              if(shelves.currently_reading[index].key===item.key){
+            for (let index = 0; index < shelves?.currently_reading?.length; index++) {
+              if(shelves?.currently_reading[index]?.key===item.key){
                 selectedShelf='continue reading';
               }
               
             }
-            for (let index = 0; index < shelves.want_to_read.length; index++) {
-              if(shelves.want_to_read[index].key===item.key){
+            for (let index = 0; index < shelves?.want_to_read?.length; index++) {
+              if(shelves?.want_to_read[index]?.key===item.key){
                 selectedShelf='want to read';
+                console.log('da');
               }
               
             }
-            for (let index = 0; index < shelves.read.length; index++) {
-              if(shelves.read[index].key===item.key){
+            for (let index = 0; index < shelves?.read?.length; index++) {
+              if(shelves?.read[index]?.key===item.key){
                 selectedShelf='read';
               }
               
